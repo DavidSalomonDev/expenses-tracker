@@ -17,12 +17,14 @@ const Main = () => {
 	return (
 		<div className={style.Main}>
 			<div className={style.MainBlock}>
+				<h1 className={style.title}>Expenses tracker</h1>
 				{form}
 				<span
 					className={style.underLine}>{isRegistered ? 'Have an account?' : 'Not registered?'} <button
 						onClick={() => formSwitcher(!isRegistered ? 'Create an account' : 'Login')}
 						className={style.linkBtn}>{isRegistered ? 'Login here' : 'Create an account'}</button>
 				</span>
+				<footer className={style.footer}>Created by davidsalomon</footer>
 			</div>
 		</div>
 	)

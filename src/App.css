@@ -1,5 +1,7 @@
-.App{
-  height: 100vh;
-
-  color: #3c4043;
+.App {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #3c4043;
 }

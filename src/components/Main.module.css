@@ -1,30 +1,48 @@
-.Main{
+.Main {
 	max-width: 128rem;
+	margin: 0 auto;
 }
 
-.MainBlock{
-	border-radius: .5rem;
+.MainBlock {
+	border-radius: 0.5rem;
 	text-align: center;
 	background-color: #fff;
 	padding: 2rem;
 	width: 100%;
 	max-width: 35rem;
 	margin: 10rem auto;
-	display: table;
-	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.underLine{
+.underLine {
 	font-size: 1.4rem;
 	text-align: center;
-	margin: .7rem 0 0 0;
+	margin: 0.7rem 0 0 0;
 	display: block;
 }
 
-.linkBtn{
+.linkBtn {
 	border: none;
 	background-color: unset;
 	text-decoration: underline;
 	color: #3c4043;
 	cursor: pointer;
+	transition: all 0.3s ease-in;
+}
+
+.linkBtn:hover {
+	background-color: #3c4043;
+	color: #fff;
+	transform: scale(1.05);
+	text-decoration: none;
+}
+
+.title {
+	margin-bottom: 2rem;
+	font-size: 2.5rem;
+	font-weight: 500;
+}
+
+.footer {
+	margin-top: 2rem;
 }
