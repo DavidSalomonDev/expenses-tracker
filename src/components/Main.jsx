@@ -1,21 +1,20 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import Register from './Forms/Register'
 import Login from './Forms/Login'
 import style from './Main.module.css'
 
-const Main = () =>{
+const Main = () => {
 	const [user, setUser] = useState(1)
 	const [loading, setLoading] = useState(true)
 	const [isRegistered, setIsRegistered] = useState(false)
 
-	const formSwitcher = e =>{
-		console.log(e)
+	const formSwitcher = e => {
 		setIsRegistered(e === 'Create an account' ? true : false)
 
 	}
 
 	const form = !isRegistered ? <Login /> : <Register />
-	return(
+	return (
 		<div className={style.Main}>
 			<div className={style.MainBlock}>
 				{form}

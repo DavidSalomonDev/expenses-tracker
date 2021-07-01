@@ -1,4 +1,4 @@
-.regField{
+.regField {
 	width: 100%;
 	background-color: #f7f7f7;
 	color: #000;
@@ -8,7 +8,7 @@
 	border-radius: 5px;
 }
 
-.submitBtn{
+.submitBtn {
 	width: 100%;
 	background-color: #425f9c;
 	border: none;
@@ -17,4 +17,12 @@
 	margin: 1rem 0 0;
 	font-size: 1.5rem;
 	cursor: pointer;
+}
+
+.error {
+	padding: 1rem;
+	background-color: #feeaea;
+	border: 1px solid #fadadb;
+	margin-bottom: 1rem;
+	border-radius: 5px;
 }
