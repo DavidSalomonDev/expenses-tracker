@@ -1,0 +1,20 @@
+.regField{
+	width: 100%;
+	background-color: #f7f7f7;
+	color: #000;
+	border: 1px solid #ddd;
+	padding: 1.5rem;
+	font-size: 1.5rem;
+	border-radius: 5px;
+}
+
+.submitBtn{
+	width: 100%;
+	background-color: #425f9c;
+	border: none;
+	color: #fff;
+	padding: 1.5rem;
+	margin: 1rem 0 0;
+	font-size: 1.5rem;
+	cursor: pointer;
+}
