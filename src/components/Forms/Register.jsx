@@ -10,7 +10,6 @@ const Register = () => {
 
 	const handleSubmit = e => {
 		e.preventDefault()
-		console.log(email, password, displayName)
 		fire.auth().createUserWithEmailAndPassword(email, password)
 			.then(user => {
 				let currentUser = fire.auth().currentUser
